@@ -1,0 +1,13 @@
+ x0 00000000 f0f0f0f0 00000100 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+ x8 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+x16 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+x24 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+ pc 00000000
+00000000: abcde237  lui     x4,0xabcde                 // x4 = 0xabcde000
+ x0 00000000 f0f0f0f0 00000100 f0f0f0f0  abcde000 f0f0f0f0 f0f0f0f0 f0f0f0f0
+ x8 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+x16 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+x24 f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0  f0f0f0f0 f0f0f0f0 f0f0f0f0 f0f0f0f0
+ pc 00000004
+00000004: abcde217  auipc   x4,0xabcde                 // x4 = 0x00000004 + 0xabcde000 = 0xabcde004
+2 instructions executed
